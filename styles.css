@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow-y: scroll; */
+}
+
+#clock-container
+{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 42rem;
+    align-items: center;
+    margin-top: 13.5rem;
+    margin-left: 39.5rem;
+    backdrop-filter: blur(50px);
+    background: linear-gradient(270deg,rgb(248, 211, 143),rgb(226,210,194));
+}
+
+#clock
+{
+    font-size: 5rem;
+    text-align: center;
+
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+      
+      
+}
